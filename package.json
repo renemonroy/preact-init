@@ -1,0 +1,31 @@
+{
+  "name": "preact-init",
+  "version": "0.0.1",
+  "description": "Single command that facilitates the initialization of new Preact apps.",
+  "author": "René Monroy <rene.dev.js@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://githug.com/churris/preact-init",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:churris/preact-init.git"
+  },
+  "bin": {
+    "preact-init": "./bin/preact-init.js"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "cli",
+    "preact"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
