@@ -12,7 +12,7 @@
   "bin": {
     "preact-init": "./bin/preact-init.js"
   },
-  "main": "lib/index.js",
+  "main": "lib/init.js",
   "files": [
     "bin",
     "lib"
