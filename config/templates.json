@@ -1,0 +1,53 @@
+{
+	"initialPackage": {
+		"version": "0.1.0",
+		"private": true,
+		"scripts": {
+			"start": "preact-utils run",
+			"build": "preact-utils build"
+		},
+    "dependencies": {
+      "preact": "^8.1.0",
+      "preact-compat": "^3.16.0"
+    },
+		"eslintConfig": {
+    	"extends": "./node_modules/preact-utils/config/.eslintrc"
+  	}
+	},
+	"validFiles": [
+		".DS_Store",
+		"Thumbs.db",
+		".git",
+		".gitignore",
+		".idea",
+		"README.md",
+		"LICENSE",
+		"web.iml"
+	],
+	"requiredTree": {
+		"children": [
+			{
+				"name": "package.json",
+				"extension": ".json"
+			},
+			{
+				"name": "public",
+				"children": [
+					{
+						"name": "index.html",
+						"extension": ".html"
+					}
+				]
+			},
+			{
+				"name": "src",
+				"children": [
+					{
+						"name": "index.jsx",
+						"extension": ".jsx"
+					}
+				]
+			}
+		]
+	}
+}
