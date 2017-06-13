@@ -4,20 +4,29 @@
 const minimist = require('minimist');
 
 const init = require('../lib/init');
-const { showHelp, showVersion } = require('../lib/utils');
+const { showHelp, showVersion } = require('../lib/interactions');
 
-const command = minimist(process.argv.slice(2), {
+const minimistConfig = {
+  boolean: ['ssh'],
+  default: {
+    ssh: false,
+  },
   alias: {
     h: 'help',
     v: 'version',
+    s: 'ssh',
   },
-});
+};
 
-const config = Object.assign({
-  name: 'my-project',
-  repository: 'https://github.com/churris/preact-simple-template.git',
-}, command);
-delete config['_'];
+const command = minimist(process.argv.slice(2), minimistConfig);
+const config = {};
+
+config.options = Object.assign({}, command);
+
+delete config.options['_'];
+Object.keys(minimistConfig.alias).forEach((key) => {
+  delete config.options[key];
+});
 
 switch (command['_'].length) {
   case 0:
@@ -27,16 +36,16 @@ switch (command['_'].length) {
     break;
   case 2:
     config.name = command['_'][0];
-    config.repository = command['_'][1];
+    config.template = command['_'][1];
     break;
   default:
     showHelp();
 }
 
 if (config.help) {
-  showHelp();
+  return showHelp();
 } else if (config.version) {
-  showVersion();
-} else {
-  init(config);
+  return showVersion();
 }
+
+init(config);
