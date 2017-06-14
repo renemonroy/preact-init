@@ -10,7 +10,7 @@
     "url": "git@github.com:churris/preact-init.git"
   },
   "bin": {
-    "preact-init": "./bin/preact-init.js"
+    "preact-init": "./bin/index.js"
   },
   "main": "lib/init.js",
   "files": [
@@ -30,6 +30,7 @@
     "inquirer": "^3.1.0",
     "minimist": "^1.2.0",
     "obj-subset": "^1.2.0",
+    "ora": "^1.2.0",
     "validate-npm-package-name": "^3.0.0"
   },
   "devDependencies": {
