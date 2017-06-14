@@ -1,4 +1,7 @@
 {
   "name": "my-project",
-  "template": "github:churris/preact-simple-template"
+  "template": "github:churris/preact-simple-template",
+  "options": {
+    "ssh": false
+  }
 }
