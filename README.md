@@ -9,8 +9,6 @@ Initiate Preact projects from different starting points, fast and easy.
   - [Requirements](#requirements)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Commands](#commands)
-    - [options](#options)
 
 ## Introduction
 ### Overview
