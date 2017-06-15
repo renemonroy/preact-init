@@ -23,15 +23,25 @@ Install it once globally:
 `npm install -g preact-init`
 
 ### Usage
-There’s only **1** command that can you run in **3** different ways:
 
-##### `preact-init`
-Assists to start your new Preact project.
+#### Commands
+There’s only **1** command that you can run in **3** different ways:
 
-##### `preact-init <project-name>`
-Starts the project with a custom name and default template.
+`preact-init` - Assists to start your new Preact project.
 
-##### `preact-init <project-name> <template-repo>`
-Starts the project with a custom name from a specific repo.
+`preact-init <project-name>` - Starts the project with a custom name and default template.
 
-**NOTE**: *template-repo* must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: github:churris/preact-simple-template
+`preact-init <project-name> <template-repo>` - Starts the project with a custom name from a specific repo.
+
+> *template-repo* must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: `github:churris/preact-simple-template`
+
+#### Options
+Additionally, you can pass the available options:
+
+| Options                            | Alias     | Description                                             |
+| ---------------------------------- | --------- | ------------------------------------------------------- |
+| `--ssh`                            | `-s`      | Clone with SSH (default: false)                         |
+| `--help`                           | `-h`      | Shows additional help                                   |
+| `--version`                        | `-v`      | Shows the version of preact-init                        |
+
+Example: `preact-init my-app -s`
