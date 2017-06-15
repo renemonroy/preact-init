@@ -1,6 +1,32 @@
-# preact-init
-This tool is highly inspired by create-react-app and vue-cli and tries to merge good ideas from both approaches.
+# Preact Init
+Initiate Preact projects from different starting points, fast and easy.
 
-While both tools use Webpack with Babel to build bundles, preact-init instead uses a Rollup/Bublé mix that generates smaller and faster bundles.
+## Introduction
+### Overview
+This starter tool uses [preact-utils](https://github.com/churris/preact-utils), a Rollup/Bublé alternative to [preact-cli](https://github.com/developit/preact-cli), to create new Preact projects.
 
-If Rollup or Bublé aren't your thing, a Wepback's alternative can be found in preact-cli.
+Preact Init is highly inspired by [create-react-app](https://github.com/facebookincubator/create-react-app) and [vue-cli](https://github.com/vuejs/vue-cli) and tries to merge good ideas from both approaches while keeping it as simple as possible.
+
+If Rollup or Bublé aren't your thing, I recommend you to look at [preact-cli](https://github.com/developit/preact-cli).
+
+### Features
+* Begin Preact projects from different starting points (templates).
+* Templates can be installed from public or private Git repositories.
+* One-command option: `preact-init`
+
+## Getting Started
+### Requirements
+Preact Init requires at least *Node 6* but an 8 version is highly recommended.
+
+### Installation
+Install it once globally:
+`npm install -g preact-init`
+
+### Usage
+There’s only *1* command that can you run in *3* different ways:
+
+`preact-init` - Assists to start your new Preact project
+`preact-init <project-name>` - Starts the project with a custom name and default template
+`preact-init <project-name> <template-repo>` Starts the project with a custom name and specific template repository
+
+*NOTE*: <template-repo> must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: _github:churris/preact-simple-template_
