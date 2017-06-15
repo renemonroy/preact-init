@@ -1,6 +1,17 @@
 # Preact Init
 Initiate Preact projects from different starting points, fast and easy.
 
+## Content
+- [Introduction](#introduction)
+  - [Overview](#overview)
+  - [Features](#features)
+- [Getting Started](#getting-started)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Commands](#commands)
+    - [options](#options)
+
 ## Introduction
 ### Overview
 This starter tool uses [preact-utils](https://github.com/churris/preact-utils), a Rollup/Bublé alternative to [preact-cli](https://github.com/developit/preact-cli), to create new Preact projects.
