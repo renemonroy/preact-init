@@ -12,7 +12,7 @@ Initiate Preact projects from different starting points, fast and easy.
 
 ## Introduction
 ### Overview
-This starter tool uses [preact-utils](https://github.com/churris/preact-utils), a Rollup/Bublé alternative to [preact-cli](https://github.com/developit/preact-cli), to create new Preact projects.
+This starter tool uses [preact-roller](https://github.com/churris/preact-roller), a Rollup/Bublé alternative to [preact-cli](https://github.com/developit/preact-cli), to create new Preact projects.
 
 Preact Init is highly inspired by [create-react-app](https://github.com/facebookincubator/create-react-app) and [vue-cli](https://github.com/vuejs/vue-cli) and tries to merge good ideas from both approaches while keeping it as simple as possible.
 

@@ -3,15 +3,15 @@
 		"version": "0.1.0",
 		"private": true,
 		"scripts": {
-			"start": "preact-utils run",
-			"build": "preact-utils build"
+			"start": "preact-roller run",
+			"build": "preact-roller build"
 		},
     "dependencies": {
       "preact": "^8.1.0",
       "preact-compat": "^3.16.0"
     },
 		"eslintConfig": {
-    	"extends": "./node_modules/preact-utils/config/.eslintrc"
+    	"extends": "./node_modules/preact-roller/config/.eslintrc"
   	}
 	},
 	"validFiles": [
