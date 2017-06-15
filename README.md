@@ -34,4 +34,4 @@ Starts the project with a custom name and default template.
 ##### `preact-init <project-name> <template-repo>`
 Starts the project with a custom name from a specific repo.
 
-**NOTE**: *template-repo* must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: *github:churris/preact-simple-template*
+**NOTE**: *template-repo* must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: github:churris/preact-simple-template
