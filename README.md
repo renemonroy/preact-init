@@ -50,7 +50,7 @@ Additionally, you can pass the available options:
 
 | Options                            | Alias     | Description                                             |
 | ---------------------------------- | --------- | ------------------------------------------------------- |
-| `--ssh`                            | `-s`      | Clone with SSH (default: false)                         |
+| `--ssh`                            | `-s`      | Clones the template repo with SSH                       |
 | `--help`                           | `-h`      | Shows additional help                                   |
 | `--version`                        | `-v`      | Shows the version of preact-init                        |
 
