@@ -20,6 +20,7 @@ Preact Init requires at least **Node 6** but an 8 version is highly recommended.
 
 ### Installation
 Install it once globally:
+
 `npm install -g preact-init`
 
 ### Usage
