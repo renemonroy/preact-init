@@ -16,17 +16,17 @@ If Rollup or Bublé aren't your thing, I recommend you to look at [preact-cli](h
 
 ## Getting Started
 ### Requirements
-Preact Init requires at least *Node 6* but an 8 version is highly recommended.
+Preact Init requires at least **Node 6** but an 8 version is highly recommended.
 
 ### Installation
 Install it once globally:
 `npm install -g preact-init`
 
 ### Usage
-There’s only *1* command that can you run in *3* different ways:
+There’s only **1** command that can you run in **3** different ways:
 
 `preact-init` - Assists to start your new Preact project
 `preact-init <project-name>` - Starts the project with a custom name and default template
 `preact-init <project-name> <template-repo>` Starts the project with a custom name and specific template repository
 
-*NOTE*: <template-repo> must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: _github:churris/preact-simple-template_
+**NOTE**: <template-repo> must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: *github:churris/preact-simple-template*
