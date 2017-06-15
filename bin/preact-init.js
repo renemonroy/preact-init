@@ -41,9 +41,9 @@ switch (command['_'].length) {
     showHelp();
 }
 
-if (config.help) {
+if (config.options.help) {
   return showHelp();
-} else if (config.version) {
+} else if (config.options.version) {
   return showVersion();
 }
 
