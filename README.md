@@ -25,9 +25,9 @@ Install it once globally:
 
 There’s only **1** command that you can run in **3** different ways:
 
-* `preact-init` - Assists to start your new Preact project.
-* `preact-init <project-name>` - Starts the project with a custom name and default template.
-* `preact-init <project-name> <template-repo>` - Starts the project with a custom name from a specific repo.
+* `preact-init` - Assists you to start a new Preact project.
+* `preact-init <project-name>` - Starts a project with a custom name and default template.
+* `preact-init <project-name> <template-repo>` - Starts a project with a custom name from a specific repo.
 
 > *template-repo* must follow the shorthand repo notation of [download-git-repo](https://github.com/flipxfx/download-git-repo). Example: `github:churris/preact-simple-template`
 
