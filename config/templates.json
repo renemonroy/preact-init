@@ -3,7 +3,7 @@
 		"version": "0.1.0",
 		"private": true,
 		"scripts": {
-			"start": "preact-roller run",
+			"start": "preact-roller start",
 			"build": "preact-roller build"
 		},
     "dependencies": {
