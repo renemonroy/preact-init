@@ -1,6 +1,6 @@
 # Preact Init
-[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/preact-init)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://www.npmjs.com/package/preact-init)
+[![npm](https://img.shields.io/npm/v/preact-init.svg?style=flat-square)](https://www.npmjs.com/package/preact-init)
+[![npm](https://img.shields.io/npm/l/preact-init.svg?style=flat-square)](https://www.npmjs.com/package/preact-init)
 
 ### Overview
 Initiate Preact projects from different starting points, fast and easy.
