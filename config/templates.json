@@ -1,19 +1,21 @@
 {
-	"initialPackage": {
-		"version": "0.1.0",
+	"validPackage": {
 		"private": true,
 		"scripts": {
 			"start": "preact-roller start",
 			"build": "preact-roller build"
 		},
-    "dependencies": {
-      "preact": "^8.1.0",
-      "preact-compat": "^3.16.0"
-    },
 		"eslintConfig": {
-    	"extends": "./node_modules/preact-roller/config/.eslintrc"
+    	"extends": "./node_modules/@renemonroy/preact-roller/config/.eslintrc"
   	}
 	},
+	"dependencies": [
+		"preact",
+		"preact-compat"
+	],
+	"devDependencies": [
+		"@renemonroy/preact-roller"
+	],
 	"validFiles": [
 		".DS_Store",
 		"Thumbs.db",
