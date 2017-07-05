@@ -1,6 +1,6 @@
 {
   "name": "preact-init",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Single command that facilitates the initialization of new Preact apps.",
   "author": "René Monroy <rene.dev.js@gmail.com>",
   "license": "MIT",
@@ -20,7 +20,12 @@
   ],
   "keywords": [
     "cli",
-    "preact"
+    "preact",
+    "starter",
+    "rollup",
+    "buble",
+    "postcss",
+    "wright"
   ],
   "dependencies": {
     "chalk": "^1.1.3",
