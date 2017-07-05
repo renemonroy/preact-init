@@ -9,7 +9,7 @@
   },
   "rules": {
     "no-console": 0,
-    "strict": ["error", "global"],
+    "strict": 1,
     "curly": "warn"
   }
 }
