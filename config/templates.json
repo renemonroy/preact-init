@@ -6,7 +6,7 @@
 			"build": "preact-roller build"
 		},
 		"eslintConfig": {
-    	"extends": "./node_modules/@renemonroy/preact-roller/config/.eslintrc"
+    	"extends": "./node_modules/preact-roller/config/.eslintrc"
   	}
 	},
 	"dependencies": [
@@ -14,7 +14,7 @@
 		"preact-compat"
 	],
 	"devDependencies": [
-		"@renemonroy/preact-roller"
+		"preact-roller"
 	],
 	"validFiles": [
 		".DS_Store",
