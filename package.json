@@ -1,6 +1,6 @@
 {
   "name": "preact-init",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Single command that facilitates the initialization of new Preact apps.",
   "author": "René Monroy <rene.dev.js@gmail.com>",
   "license": "MIT",
